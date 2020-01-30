@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bc7881f-15f2-4353-8a46-e09432b4dd73" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/models/categorizer_model.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categorizer.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Tfidf_vect.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/Tfidf_vect.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/pickle_model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/pickle_model.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/train_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/models/train_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/vocabulary.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/vocabulary.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="9bc7881f-15f2-4353-8a46-e09432b4dd73" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +138,7 @@
       <workItem from="1580277344910" duration="696000" />
       <workItem from="1580278109599" duration="2340000" />
       <workItem from="1580335805962" duration="319000" />
-      <workItem from="1580370178847" duration="714000" />
+      <workItem from="1580370178847" duration="966000" />
     </task>
     <servers />
   </component>
