@@ -25,8 +25,9 @@ def default():
     #body = json.loads(body_unicode)
     content = request.get_data()
     #content = body['text']
+    
     data = pd.read_csv("models/train_test.csv", header=0)
-    labels = ['environment', 'safety', 'community', 'roads']
+    labels = ['tech', 'sports', 'politics', 'entertainment', 'business']
     Naive = pickle.load(open("models/pickle_model.pkl", 'rb'))
 
     # Load it later
@@ -36,7 +37,7 @@ def default():
     # text = ["this playground is dangerous. someone could break an arm on the jungle gym"]
     tfidf = transformer.fit_transform(loaded_vec.fit_transform(np.array([content])))
     prediction = Naive.predict(tfidf)
-
+    
     return labels[prediction[0]]
 
 @app.route("/")
