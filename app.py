@@ -27,7 +27,7 @@ def default():
     #content = body['text']
     
     data = pd.read_csv("models/train_test.csv", header=0)
-    labels = ['tech', 'sports', 'politics', 'entertainment', 'business']
+    labels = ['business', 'entertainment', 'politics', 'sports', 'tech']
     Naive = pickle.load(open("models/pickle_model.pkl", 'rb'))
 
     # Load it later
